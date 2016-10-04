@@ -7,8 +7,8 @@ avg_ins=400
 reverse_seq=0
 #which part(s) of the read that are used
 asm_flags=3
-#use only first 100 bps of each read
-rd_len_cutoff=100
+#use only first N bps of each read
+rd_len_cutoff=151
 #specify which order the reads are used while scaffolding
 rank=1
 #cutoff of pair number for a reliable connection (at least 3 for short insert size)
